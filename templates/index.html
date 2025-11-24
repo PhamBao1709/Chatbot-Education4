@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot Học Sinh</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>📘 Chatbot Học Sinh</h1>
+
+        <label>Chế độ trả lời:</label>
+        <select id="mode">
+            <option value="short">Ngắn gọn</option>
+            <option value="detailed">Chi tiết</option>
+            <option value="example">Kèm ví dụ</option>
+            <option value="level">Theo cấp độ</option>
+        </select>
+
+        <div id="chat"></div>
+
+        <input id="question" placeholder="Nhập câu hỏi...">
+        <button onclick="send()">Gửi</button>
+    </div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
